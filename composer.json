@@ -1,0 +1,17 @@
+{
+  "name": "stuttter/wp-semantic-ui",
+  "description": "User Interface is the language of the web",
+  "homepage": "https://github.com/stuttter/wp-semantic-ui",
+  "type": "wordpress-plugin",
+  "require": {
+    "php": ">=5.2",
+    "composer/installers": "^1.0"
+  },
+  "license": "GPLv2 or later",
+  "authors": [
+    {
+      "name": "John James Jacoby",
+      "email": "johnjamesjacoby@me.com"
+    }
+  ]
+}
