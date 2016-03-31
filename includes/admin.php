@@ -25,6 +25,6 @@ function wp_semantic_ui_enqueue_assets() {
 	wp_enqueue_style( 'wp-semantic-ui', $url . 'assets/css/wp-semantic-ui.css', array( 'semantic-ui' ), $ver );
 
 	// Scripts
-	wp_enqueue_script( 'semantic-ui',    $url . 'assets/js/semantic.js',       array( 'jquery'      ), $ver, true );
+	wp_enqueue_script( 'semantic-ui',    $url . 'assets/js/semantic.min.js',   array(),                $ver, true );
 	wp_enqueue_script( 'wp-semantic-ui', $url . 'assets/js/wp-semantic-ui.js', array( 'semantic-ui' ), $ver, true );
 }
