@@ -4,7 +4,7 @@
  * Plugin Name: WP Semantic UI
  * Plugin URI:  http://wordpress.org/plugins/wp-semantic-ui/
  * Author:      John James Jacoby
- * Author URI:  http://jjj.me
+ * Author URI:  https://jjj.blog
  * Version:     0.1.0
  * Description: User Interface is the language of the web
  * License:     GPLv2 or later
@@ -18,7 +18,7 @@
 function _wp_semantic_ui() {
 
 	// Get the plugin path
-	$plugin_path = plugin_dir_path( __FILE__ );
+	$plugin_path = plugin_dir_path( __FILE__ ) . 'wp-semantic-ui/';
 
 	// Common files
 	require_once $plugin_path . 'includes/admin.php';
@@ -34,7 +34,7 @@ add_action( 'plugins_loaded', '_wp_semantic_ui' );
  * @return string
  */
 function wp_semantic_ui_get_plugin_url() {
-	return plugin_dir_url( __FILE__ );
+	return plugin_dir_url( __FILE__ ) . 'wp-semantic-ui/';
 }
 
 /**
@@ -45,5 +45,5 @@ function wp_semantic_ui_get_plugin_url() {
  * @return int
  */
 function wp_semantic_ui_get_asset_version() {
-	return 201603300001;
+	return 201611150001;
 }

@@ -1,18 +1,18 @@
 === WP Semantic UI ===
 Contributors: johnjamesjacoby, stuttter
-Tags: semantic-ui
+Tags: semantic-ui, style, script
 Requires at least: 4.4
-Tested up to: 4.5
+Tested up to: 4.7
 Stable tag: 0.1.0
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=9Q4F4EL5YJ62J
 
-Make long, unwieldy select boxes much more user-friendly.
+Enqueue Semantic UI assets for your WordPress site.
 
 == Description ==
 
-WP Semantic UI implements [Semantic UI](http://semantic-ui.com) for WordPress.
+WP Semantic UI implements [Semantic UI](https://semantic-ui.com) for WordPress.
 
-[Semantic UI](http://semantic-ui.com) - User Interface is the language of the web
+[Semantic UI](https://semantic-ui.com) - User Interface is the language of the web
 
 = Also checkout =
 
@@ -30,8 +30,7 @@ WP Semantic UI implements [Semantic UI](http://semantic-ui.com) for WordPress.
 
 == Screenshots ==
 
-1. Filters
-2. Time Zones
+1. Example Theme
 
 == Installation ==
 
@@ -49,7 +48,7 @@ The WordPress support forums: https://wordpress.org/support/plugin/wp-semantic-u
 
 = Where can I find documentation? =
 
-http://github.com/stuttter/wp-semantic-ui/
+https://github.com/stuttter/wp-semantic-ui/
 
 == Changelog ==
 
