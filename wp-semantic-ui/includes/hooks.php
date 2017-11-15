@@ -12,3 +12,4 @@ defined( 'ABSPATH' ) || exit;
 // Enqueue admin assets
 add_action( 'wp_enqueue_scripts',    'wp_semantic_ui_enqueue_assets', -99 );
 add_action( 'admin_enqueue_scripts', 'wp_semantic_ui_enqueue_assets', -99 );
+add_action( 'login_enqueue_scripts', 'wp_semantic_ui_enqueue_assets', -99 );
